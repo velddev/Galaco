@@ -78,16 +78,17 @@ namespace Galaco
                     "-----------------------------",
                     "Created by: Veld#5128",
                     "-----------------------------",
-                    "ALL PROPERTIES CHANGABLE",
+                    "ALL PROPERTIES AVAILABLE",
                     string.Join(", ", allProperties.ToArray()),
                     "-----------------------------"
                     );
                 sw.WriteLine("Name:GALACO");
-                sw.WriteLine("Version:1.0.0");
+                sw.WriteLine("Version:1.0");
                 sw.WriteLine("ShardCount:1");
                 sw.Close();
 
-                Log.Notice($"Created a config file at:\n {file}\n\nPlease add your bot Token there");
+                Console.WriteLine("First run detected!");
+                Console.WriteLine($"Created a config file at:\n {file}\n\nPress enter to continue...");
                 Console.ReadLine();
             }
             return null;

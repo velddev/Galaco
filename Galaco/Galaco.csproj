@@ -171,11 +171,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\IA.SDK\IA.SDK\IA.SDK.csproj">
+    <ProjectReference Include="..\IA.SDK\IA.SDK\IA.SDK.csproj">
       <Project>{b8ffa60f-2c45-449f-ad4d-cf1c5a3075d4}</Project>
       <Name>IA.SDK</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\IA\IA\IA.csproj">
+    <ProjectReference Include="..\IA\IA\IA.csproj">
       <Project>{e4b74dd1-8ccb-4fcc-9bde-0f79c43211e7}</Project>
       <Name>IA</Name>
     </ProjectReference>

@@ -1,0 +1,7 @@
+C:\Users\Veld\Documents\Galaco\Galaco.ExampleAddon\bin\Release\Galaco.ExampleAddon.dll
+C:\Users\Veld\Documents\Galaco\Galaco.ExampleAddon\bin\Release\Galaco.ExampleAddon.pdb
+C:\Users\Veld\Documents\Galaco\Galaco.ExampleAddon\bin\Release\IA.SDK.dll
+C:\Users\Veld\Documents\Galaco\Galaco.ExampleAddon\bin\Release\IA.SDK.pdb
+C:\Users\Veld\Documents\Galaco\Galaco.ExampleAddon\obj\Release\Galaco.ExampleAddon.csprojResolveAssemblyReference.cache
+C:\Users\Veld\Documents\Galaco\Galaco.ExampleAddon\obj\Release\Galaco.ExampleAddon.dll
+C:\Users\Veld\Documents\Galaco\Galaco.ExampleAddon\obj\Release\Galaco.ExampleAddon.pdb
