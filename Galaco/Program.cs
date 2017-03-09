@@ -17,6 +17,8 @@ namespace Galaco
 
             Bot bot = new Bot(clientInfo);
 
+            new Hotloader(bot).Run();
+
             await bot.ConnectAsync();
         }
 
