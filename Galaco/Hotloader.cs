@@ -27,9 +27,15 @@ namespace Galaco
             {
                 await bot.Addons.LoadSpecific(bot, args.Name.Remove(args.Name.Length - 4));
             };
+
             hotloader.Changed += async (sender, args) => 
             {
                 await bot.Addons.Reload(bot, args.Name.Remove(args.Name.Length - 4));
+            };
+
+            hotloader.Deleted += async (sender, args) =>
+            {
+                await bot.Addons.Unload(bot, args.Name.Remove(args.Name.Length - 4));
             };
         }
     }

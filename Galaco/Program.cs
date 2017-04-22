@@ -71,7 +71,7 @@ namespace Galaco
                 }
 
                 WriteComments(sw,
-                    "GALACO bot settings file v1.0",
+                    "GALACO bot settings file v1.2",
                     "==============================",
                     "Here's a quick tutorial for you to understand GALACO's settings in a breeze!",
                     "Firstly, comments HAVE to start with a #. as you can see from this file.",
@@ -84,8 +84,9 @@ namespace Galaco
                     string.Join(", ", allProperties.ToArray()),
                     "-----------------------------"
                     );
+
                 sw.WriteLine("Name:GALACO");
-                sw.WriteLine("Version:1.0");
+                sw.WriteLine("Version:1.2");
                 sw.WriteLine("ShardCount:1");
                 sw.Close();
 
